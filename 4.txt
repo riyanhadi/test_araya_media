@@ -1,0 +1,9 @@
+Tampilkan seluruh data dari table tb_booking
+SELECT * FROM tb_booking;
+
+Tampilkan seluruh data booking berdasarkan jenis kendaraan
+SELECT * FROM tb_booking WHERE jenis_kendaraan_id = 1;
+
+
+Tampilkan seluruh data customer, booking, beserta jenis kendaraan
+SELECT c.name, c.address, c.phone, b.tanggal, b.nopol, j.name AS jenis_kendaraan, b.tahun, b.bahan_bakar, b.keluhan FROM tb_customer c JOIN tb_booking b ON c.id = b.customer_id JOIN tb_jenis_kendaraan j ON b.jenis_kendaraan_id = j.id;
