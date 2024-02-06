@@ -3,7 +3,7 @@ Jawaban
 1. Soal 1 -> 1.php
 2. Soal 2 -> 2.php
 3. Soal 3 -> 3.php
-4. Soal 2 -> 4.txt
+4. Soal 4 -> 4.txt
 
     Soal 4.1 -> 4.1.png
 
